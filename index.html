@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <div id="contenedor">
+    
+        <header id="titulo">
+            
+            <h1>Algoritmo Cesar</h1>
+            
+        </header>
+        
+        <br>
+        
+        <header id="indicacion">
+            <h1>Aqui podras colocar palabras para probar el cifrado Cesar</h1>
+        </header>
+        
+        <header id="seccion">
+            <h3>Sección de Acciones</h3>
+        </header>
+        
+        
+        <aside id="botones">
+            
+            <p>
+            <a href="#" class="btn btn-color" onclick="codificar()">CIFRAR</a>
+            <a href="#" class="btn btn-color" onclick="decodificar()">DECIFRAR</a>
+            </p>      
+            
+        </aside>
+        
+        <section id="contenido">
+            
+            <article class="articulo">
+                <textarea id="cadena"></textarea>
+            </article>
+
+        </section>
+    
+    </div>
+    <div id="contener">
+        <div id="resultado"></div>
+        <script src="js/logica.js"></script>
+    </div>  
+
+</body>
+</html>
